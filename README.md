@@ -7,11 +7,23 @@
 ```
 git clone git@github.com:denkho/qa_project_selenium.git
 ```
-3. На локальной машине перейдите в раздел с клонированным репозиторием и установите требуемые зависимости из файла requirements.txt командой:
+2.На локальной машине перейдите в раздел с клонированным репозиторием, установите виртуальное окружение и активируйте его. 
+Для Windows команды будут следующие:
+```
+python -m venv venv
+venv\Scripts\activate
+```
+Для Linux:
+```
+python3 -m venv venv
+source venv/bin/activate
+```
+3. Установите требуемые зависимости из файла requirements.txt командой:
 ```
 pip install -r requirements.txt
 ```
-4. Запустите тесты командой
+4. Файл `dotenv` в корневой папке проекта переименуйте в `.env`.
+5. Запустите тесты командой
 ```
 pytest -s ./tests
 ```
