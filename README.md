@@ -5,11 +5,11 @@
 ## Запуск тестов
 1. Клонируйте репозиторий на локальную машину с помощью команды:
 ```
-   git clone git@github.com:denkho/qa_project_selenium.git
+git clone git@github.com:denkho/qa_project_selenium.git
 ```
 3. На локальной машине перейдите в раздел с клонированным репозиторием и установите требуемые зависимости из файла requirements.txt командой:
 ```
-    pip install -r requirements.txt
+pip install -r requirements.txt
 ```
 4. Запустите тесты командой
 ```
